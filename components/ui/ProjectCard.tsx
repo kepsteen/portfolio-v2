@@ -44,13 +44,11 @@ export function ProjectCard({ project }: Props) {
 				{tags && tags.length > 0 && (
 					<div className="mt-2 flex flex-wrap gap-1">
 						{tags.toSorted().map((tag) => (
-							<Badge
-								key={tag}
-								className="px-1 py-0 text-[10px]"
-								variant="secondary"
-							>
-								{tag}
-							</Badge>
+							<Link href={tag.href} key={tag.name} target="_blank">
+								<Badge className="px-1 py-0 text-[10px]" variant="secondary">
+									{tag.name}
+								</Badge>
+							</Link>
 						))}
 					</div>
 				)}

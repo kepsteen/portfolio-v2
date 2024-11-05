@@ -20,12 +20,16 @@ export interface ExperienceData {
 	career: Experience[];
 }
 
+export interface tag {
+	href: string;
+	name: string;
+}
 export interface Project {
 	name: string;
 	description: string;
 	href: string;
 	image: string;
-	tags: string[];
+	tags: tag[];
 	links: {
 		name: string;
 		href: string;

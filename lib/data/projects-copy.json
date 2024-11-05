@@ -1,0 +1,23 @@
+{
+	"projects": [
+		{
+			"name": "Gridiron Survivor",
+			"description": "Open-source NFL Survivor Pool Application (Apprenticeship)",
+			"href": "https://gridiron-survivor-letsgettechnical.vercel.app",
+			"image": "/GIS.webp",
+			"tags": [
+				{
+					"name": "NextJS",
+					"href": "https://nextjs.org/"
+				}
+			],
+			"links": [
+				{
+					"name": "Source",
+					"href": "https://github.com/LetsGetTechnical/gridiron-survivor",
+					"icon": "github"
+				}
+			]
+		}
+	]
+}

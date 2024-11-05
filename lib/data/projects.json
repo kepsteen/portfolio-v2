@@ -6,15 +6,42 @@
 			"href": "https://gridiron-survivor-letsgettechnical.vercel.app",
 			"image": "/GIS.webp",
 			"tags": [
-				"NextJS",
-				"TypeScript",
-				"TailwindCSS",
-				"Appwrite",
-				"Zustand",
-				"Jest",
-				"React Testing Library",
-				"Playwright",
-				"Vercel"
+				{
+					"name": "NextJS",
+					"href": "https://nextjs.org/"
+				},
+				{
+					"name": "TypeScript",
+					"href": "https://www.typescriptlang.org/"
+				},
+				{
+					"name": "TailwindCSS",
+					"href": "https://tailwindcss.com/"
+				},
+				{
+					"name": "Appwrite",
+					"href": "https://appwrite.io/"
+				},
+				{
+					"name": "Zustand",
+					"href": "https://zustand.docs.pmnd.rs/"
+				},
+				{
+					"name": "Jest",
+					"href": "https://jestjs.io/"
+				},
+				{
+					"name": "React Testing Library",
+					"href": "https://testing-library.com/"
+				},
+				{
+					"name": "Playwright",
+					"href": "https://playwright.dev/"
+				},
+				{
+					"name": "Vercel",
+					"href": "https://vercel.com/"
+				}
 			],
 			"links": [
 				{
@@ -30,13 +57,38 @@
 			"href": "https://joobi-v2.vercel.app/",
 			"image": "/joobi.webp",
 			"tags": [
-				"NextJS",
-				"TypeScript",
-				"TailwindCSS",
-				"Redux Toolkit",
-				"Supabase",
-				"Jest",
-				"React Testing Library"
+				{
+					"name": "NextJS",
+					"href": "https://nextjs.org/"
+				},
+				{
+					"name": "TypeScript",
+					"href": "https://www.typescriptlang.org/"
+				},
+				{
+					"name": "TailwindCSS",
+					"href": "https://tailwindcss.com/"
+				},
+				{
+					"name": "Redux Toolkit",
+					"href": "https://redux-toolkit.js.org/"
+				},
+				{
+					"name": "Supabase",
+					"href": "https://supabase.com/"
+				},
+				{
+					"name": "Jest",
+					"href": "https://jestjs.io/"
+				},
+				{
+					"name": "React Testing Library",
+					"href": "https://testing-library.com/"
+				},
+				{
+					"name": "Vercel",
+					"href": "https://vercel.com/"
+				}
 			],
 			"links": [
 				{
@@ -51,7 +103,28 @@
 			"description": "Simple portfolio made with Astro 🚀",
 			"href": "https://portfolio.codyepstein.com",
 			"image": "/portfolio.webp",
-			"tags": ["Astro", "React", "TypeScript", "TailwindCSS", "FlowbiteUI"],
+			"tags": [
+				{
+					"name": "Astro",
+					"href": "https://astro.build/"
+				},
+				{
+					"name": "React",
+					"href": "https://react.dev/"
+				},
+				{
+					"name": "TypeScript",
+					"href": "https://www.typescriptlang.org/"
+				},
+				{
+					"name": "TailwindCSS",
+					"href": "https://tailwindcss.com/"
+				},
+				{
+					"name": "FlowbiteUI",
+					"href": "https://flowbite.com/"
+				}
+			],
 			"links": [
 				{
 					"name": "Source",
@@ -71,14 +144,38 @@
 			"href": "https://meditrak.codyepstein.com",
 			"image": "/meditrak.webp",
 			"tags": [
-				"React",
-				"TypeScript",
-				"TailwindCSS",
-				"ShadcnUI",
-				"Node",
-				"Express",
-				"PostgreSQL",
-				"AWS"
+				{
+					"name": "React",
+					"href": "https://react.dev/"
+				},
+				{
+					"name": "TypeScript",
+					"href": "https://www.typescriptlang.org/"
+				},
+				{
+					"name": "TailwindCSS",
+					"href": "https://tailwindcss.com/"
+				},
+				{
+					"name": "ShadcnUI",
+					"href": "https://ui.shadcn.com/"
+				},
+				{
+					"name": "NodeJS",
+					"href": "https://nodejs.org/en"
+				},
+				{
+					"name": "ExpressJS",
+					"href": "https://expressjs.com/"
+				},
+				{
+					"name": "PostgreSQL",
+					"href": "https://www.postgresql.org/"
+				},
+				{
+					"name": "AWS",
+					"href": "https://aws.amazon.com/"
+				}
 			],
 			"links": [
 				{
@@ -98,7 +195,20 @@
 			"description": "A workout planner app for user to search for exercises and make custom workout plans.",
 			"href": "https://kepsteen.github.io/fitlog/",
 			"image": "/fitlog.webp",
-			"tags": ["TypeScript", "HTML", "CSS"],
+			"tags": [
+				{
+					"name": "TypeScript",
+					"href": "https://www.typescriptlang.org/"
+				},
+				{
+					"name": "HTML",
+					"href": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+				},
+				{
+					"name": "CSS",
+					"href": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+				}
+			],
 			"links": [
 				{
 					"name": "Source",
