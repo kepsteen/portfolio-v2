@@ -4,7 +4,7 @@
 			"name": "Gridiron Survivor",
 			"description": "Open-source NFL Survivor Pool Application (Apprenticeship)",
 			"href": "https://gridiron-survivor-letsgettechnical.vercel.app",
-			"image": "/gridiron-survivor.webp",
+			"image": "/GIS.webp",
 			"tags": [
 				"NextJS",
 				"TypeScript",
@@ -54,14 +54,14 @@
 			"tags": ["Astro", "React", "TypeScript", "TailwindCSS", "FlowbiteUI"],
 			"links": [
 				{
-					"name": "Website",
-					"href": "https://portfolio.codyepstein.com",
-					"icon": "globe"
-				},
-				{
 					"name": "Source",
 					"href": "https://github.com/kepsteen/Portfolio",
 					"icon": "github"
+				},
+				{
+					"name": "Website",
+					"href": "https://portfolio.codyepstein.com",
+					"icon": "globe"
 				}
 			]
 		},
@@ -89,7 +89,7 @@
 				{
 					"name": "Website",
 					"href": "https://meditrak.codyepstein.com",
-					"icon": "monitorplay"
+					"icon": "globe"
 				}
 			]
 		},
@@ -108,7 +108,7 @@
 				{
 					"name": "Website",
 					"href": "https://kepsteen.github.io/fitlog/",
-					"icon": "monitorplay"
+					"icon": "globe"
 				}
 			]
 		}

@@ -2,10 +2,11 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import careerData from "@/lib/data/career.json";
 import educationData from "@/lib/data/education.json";
 import Timeline from "./Timeline";
+import type { Experience } from "@/lib/types";
 
 export default function Experience() {
-	const career = careerData.career;
-	const education = educationData.education;
+	const career = careerData.career as Experience[];
+	const education = educationData.education as Experience[];
 
 	return (
 		<Tabs defaultValue="work">

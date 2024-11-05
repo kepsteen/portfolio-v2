@@ -1,5 +1,6 @@
 import Experience from "@/components/ui/Experience";
 import LinkWithIcon from "@/components/ui/LinkWithIcon";
+import Projects from "@/components/ui/Projects";
 import { ArrowRightIcon, FileDown, Github, Linkedin, Mail } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -65,7 +66,7 @@ export default function Home() {
 							text="view more"
 						/>
 					</div>
-					{/* <Projects limit={LIMIT} /> */}
+					<Projects limit={LIMIT} />
 				</section>
 			</div>
 		</>
