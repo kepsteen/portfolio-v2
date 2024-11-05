@@ -1,0 +1,20 @@
+{
+	"career": [
+		{
+			"name": "Gridiron Survivor",
+			"href": "https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A102709871&keywords=gridiron%20survivor&origin=RICH_QUERY_SUGGESTION&position=0&searchId=a306605f-04fd-4d67-97b9-12e6c6143b4f&sid=5i2&spellCorrectionEnabled=false",
+			"title": "UX Engineer",
+			"logo": "/gridiron-survivor.webp",
+			"start": "Oct 2024",
+			"description": []
+		},
+		{
+			"name": "Providence St. Joseph Hospital",
+			"href": "https://www.providence.org/locations/socal/st-joseph-hospital-orange",
+			"title": "Certified Nursing Assistant / Cardiac Monitor",
+			"logo": "/providence.png",
+			"start": "Jun 2021",
+			"description": []
+		}
+	]
+}

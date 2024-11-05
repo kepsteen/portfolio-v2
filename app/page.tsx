@@ -23,7 +23,7 @@ export default function Home() {
 							📍Irvine, CA
 						</p>
 						<p className="font-light mt-2">
-							I like to build things, drink coffee and play pickle ball
+							I like to build things, drink coffee and play pickleball
 						</p>
 						<div className="mt-4 flex items-center gap-4">
 							<Link
