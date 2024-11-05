@@ -1,0 +1,36 @@
+{
+	"education": [
+		{
+			"name": "LearningFuze (Full Stack Bootcamp)",
+			"href": "https://apply.learningfuze.com/",
+			"title": "Full Stack Web Development Student",
+			"logo": "/lfz.png",
+			"start": "May 2024",
+			"end": "Sep 2024",
+			"description": [
+				"Completed 800+ hours of intensive coding in an Agile-like work environment taught by an ex-Director at Google",
+				"Participated in daily code reviews to refine code quality, enhance learning, and ensure adherence to best practices",
+				"Collobarated with students in pair programming sessions and hackathons to tackle complex challenges"
+			],
+			"links": [
+				{
+					"name": "Capstone Project",
+					"href": "https://github.com/kepsteen/MediTrak",
+					"icon": "globe"
+				}
+			]
+		},
+		{
+			"name": "Chapman University",
+			"href": "https://www.chapman.edu/",
+			"title": "B.S. Health Sciences",
+			"logo": "/chapman.jpeg",
+			"start": "Aug 2018",
+			"end": "Dec 2020",
+			"description": [
+				"B.S. Health Sciences - Pre P.A. track",
+				"Four-year student Athlete in Track and Field"
+			]
+		}
+	]
+}
