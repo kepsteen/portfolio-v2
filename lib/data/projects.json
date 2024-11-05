@@ -1,0 +1,116 @@
+{
+	"projects": [
+		{
+			"name": "Gridiron Survivor",
+			"description": "Open-source NFL Survivor Pool Application (Apprenticeship)",
+			"href": "https://gridiron-survivor-letsgettechnical.vercel.app",
+			"image": "/gridiron-survivor.webp",
+			"tags": [
+				"NextJS",
+				"TypeScript",
+				"TailwindCSS",
+				"Appwrite",
+				"Zustand",
+				"Jest",
+				"React Testing Library",
+				"Playwright",
+				"Vercel"
+			],
+			"links": [
+				{
+					"name": "Source",
+					"href": "https://github.com/LetsGetTechnical/gridiron-survivor",
+					"icon": "github"
+				}
+			]
+		},
+		{
+			"name": "Joobi",
+			"description": "Educational platform for job-seeking developers to level-up their skills and track their job applications",
+			"href": "https://joobi-v2.vercel.app/",
+			"image": "/joobi.webp",
+			"tags": [
+				"NextJS",
+				"TypeScript",
+				"TailwindCSS",
+				"Redux Toolkit",
+				"Supabase",
+				"Jest",
+				"React Testing Library"
+			],
+			"links": [
+				{
+					"name": "Source",
+					"href": "https://github.com/kepsteen/joobi-v2",
+					"icon": "github"
+				}
+			]
+		},
+		{
+			"name": "Portfolio v1 (Outdated)",
+			"description": "Simple portfolio made with Astro 🚀",
+			"href": "https://portfolio.codyepstein.com",
+			"image": "/portfolio.webp",
+			"tags": ["Astro", "React", "TypeScript", "TailwindCSS", "FlowbiteUI"],
+			"links": [
+				{
+					"name": "Website",
+					"href": "https://portfolio.codyepstein.com",
+					"icon": "globe"
+				},
+				{
+					"name": "Source",
+					"href": "https://github.com/kepsteen/Portfolio",
+					"icon": "github"
+				}
+			]
+		},
+		{
+			"name": "MediTrak",
+			"description": "Medication management app for patients and caregivers to track their medications and create schedules",
+			"href": "https://meditrak.codyepstein.com",
+			"image": "/meditrak.webp",
+			"tags": [
+				"React",
+				"TypeScript",
+				"TailwindCSS",
+				"ShadcnUI",
+				"Node",
+				"Express",
+				"PostgreSQL",
+				"AWS"
+			],
+			"links": [
+				{
+					"name": "Source",
+					"href": "https://github.com/kepsteen/MediTrak",
+					"icon": "github"
+				},
+				{
+					"name": "Website",
+					"href": "https://meditrak.codyepstein.com",
+					"icon": "monitorplay"
+				}
+			]
+		},
+		{
+			"name": "FitLog",
+			"description": "A workout planner app for user to search for exercises and make custom workout plans.",
+			"href": "https://kepsteen.github.io/fitlog/",
+			"image": "/fitlog.webp",
+			"tags": ["TypeScript", "HTML", "CSS"],
+			"links": [
+				{
+					"name": "Source",
+					"href": "https://github.com/kepsteen/fitlog",
+					"icon": "github"
+				},
+				{
+					"name": "Website",
+					"href": "https://kepsteen.github.io/fitlog/",
+					"icon": "monitorplay"
+				}
+			]
+		}
+	]
+}
