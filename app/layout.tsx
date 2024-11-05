@@ -38,16 +38,16 @@ export default function RootLayout({
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} ${calistoga.variable} antialiased`}
 			>
-				<div className="min-h-screen px-8 max-w-3xl flex flex-col gap-8 mx-auto">
+				<div className="min-h-screen max-w-3xl flex flex-col gap-8 mx-auto">
 					<ThemeProvider
 						attribute="class"
 						defaultTheme="system"
 						enableSystem
 						disableTransitionOnChange
 					>
-						<header className="h-16 p-4">
+						<header className="h-16 px-8 py-4 sticky top-0 z-50 bg-background/75 backdrop-blur-sm">
 							<nav className="flex justify-between items-center">
-								<ul className="flex gap-4">
+								<ul className="flex items-center gap-4">
 									<li>
 										<Link href="/" className="link">
 											home
@@ -67,7 +67,7 @@ export default function RootLayout({
 								<ModeToggle />
 							</nav>
 						</header>
-						{children}
+						<main className="px-8">{children}</main>
 					</ThemeProvider>
 				</div>
 			</body>

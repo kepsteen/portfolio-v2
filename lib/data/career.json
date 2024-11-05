@@ -6,7 +6,11 @@
 			"title": "UX Engineer",
 			"logo": "/gridiron-survivor.webp",
 			"start": "Oct 2024",
-			"description": []
+			"description": [
+				"Developing and maintaing an open-source NFL Pool Saas Application built with Next.js",
+				"Using testing methodologies such as Jest, React Testing Library and Playwright",
+				"Utilizing ShadcnUI to make highly interactive and accessible components"
+			]
 		},
 		{
 			"name": "Providence St. Joseph Hospital",
@@ -14,7 +18,11 @@
 			"title": "Certified Nursing Assistant / Cardiac Monitor",
 			"logo": "/providence.png",
 			"start": "Jun 2021",
-			"description": []
+			"description": [
+				"Monitoring cardiac rhythms for 50+ patients, assisting with patient care, ensuring timely intervention to enhance outcomes",
+				"Collaborating with interdisciplinary teams for comprehensive care, assisting with daily activities, and monitoring vital signs",
+				"Vigilantly responding to call lights and phone calls, conducting regular rounds, significantly reducing patient falls on the cardiac floor"
+			]
 		}
 	]
 }

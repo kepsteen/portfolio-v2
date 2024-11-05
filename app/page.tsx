@@ -1,11 +1,15 @@
-import { FileDown, Github, Linkedin, Mail } from "lucide-react";
+import Experience from "@/components/ui/Experience";
+import LinkWithIcon from "@/components/ui/LinkWithIcon";
+import { ArrowRightIcon, FileDown, Github, Linkedin, Mail } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+	const BIRTH_YEAR = 1997;
+	const LIMIT = 2;
 	return (
 		<>
-			<main>
+			<div className="flex flex-col gap-16">
 				<article className="md:flex flex-row-reverse gap-8 items-center">
 					<Image
 						alt="picture of me"
@@ -19,8 +23,8 @@ export default function Home() {
 							hi cody here <span>👋🏼</span>
 						</h1>
 						<p className="font-light mt-4">
-							27-year-old <s>nursing assistant</s> full stack developer from
-							📍Irvine, CA
+							{new Date().getFullYear() - BIRTH_YEAR}-year-old{" "}
+							<s>nursing assistant</s> full stack developer from 📍Irvine, CA
 						</p>
 						<p className="font-light mt-2">
 							I like to build things, drink coffee and play pickleball
@@ -48,7 +52,22 @@ export default function Home() {
 						</div>
 					</div>
 				</article>
-			</main>
+				<Experience />
+				<section className="flex flex-col gap-8">
+					<div className="flex justify-between">
+						<h2 className="font-calistoga text-2xl sm:text-3xl">
+							featured projects
+						</h2>
+						<LinkWithIcon
+							href="/projects"
+							position="right"
+							icon={<ArrowRightIcon className="size-5" />}
+							text="view more"
+						/>
+					</div>
+					{/* <Projects limit={LIMIT} /> */}
+				</section>
+			</div>
 		</>
 	);
 }
