@@ -13,12 +13,15 @@ export default function Socials() {
 			</Link>
 			<Link href="https://www.linkedin.com/in/cody-epstein/" target="_blank">
 				<Linkedin className="link" />
+				<span className="sr-only">LinkedIn</span>
 			</Link>
 			<Link href="https://github.com/kepsteen/" target="_blank">
 				<Github className="link" />
+				<span className="sr-only">GitHub</span>
 			</Link>
 			<Link href="mailto:codykentepstein@gmail.com" target="_blank">
 				<Mail className="link" />
+				<span className="sr-only">Email</span>
 			</Link>
 		</div>
 	);
