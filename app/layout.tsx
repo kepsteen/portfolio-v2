@@ -5,6 +5,7 @@ import "./globals.css";
 import { ThemeProvider } from "../components/dark mode/ThemeProvider";
 import Link from "next/link";
 import { ModeToggle } from "../components/dark mode/ModeToggle";
+import Footer from "@/components/ui/Footer";
 
 const geistSans = localFont({
 	src: "./fonts/GeistVF.woff",
@@ -54,11 +55,6 @@ export default function RootLayout({
 										</Link>
 									</li>
 									<li>
-										<Link href="/about" className="link">
-											about
-										</Link>
-									</li>
-									<li>
 										<Link href="/projects" className="link">
 											projects
 										</Link>
@@ -68,6 +64,7 @@ export default function RootLayout({
 							</nav>
 						</header>
 						<main className="px-8">{children}</main>
+						<Footer />
 					</ThemeProvider>
 				</div>
 			</body>
