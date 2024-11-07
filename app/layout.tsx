@@ -60,6 +60,11 @@ export default function RootLayout({
 											projects
 										</Link>
 									</li>
+									<li>
+										<Link href="/about" className="link">
+											about
+										</Link>
+									</li>
 								</ul>
 								<ModeToggle />
 							</nav>

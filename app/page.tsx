@@ -28,7 +28,7 @@ export default function Home() {
 							<s>nursing assistant</s> full stack developer from 📍Irvine, CA
 						</p>
 						<p className="font-light mt-2">
-							I like to build things, drink coffee and play pickleball
+							I like to build apps, hang out my husky Luna and play pickleball
 						</p>
 						<Socials />
 					</div>

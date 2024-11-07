@@ -1,9 +1,14 @@
+import { cn } from "@/lib/utils";
 import { FileDown, Github, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
 
-export default function Socials() {
+interface SocialsProps {
+	className?: string;
+}
+
+export default function Socials({ className }: SocialsProps) {
 	return (
-		<div className="mt-4 flex items-center gap-4">
+		<div className={cn("mt-4 flex items-center gap-4", className)}>
 			<Link
 				href="/CodyEpstein-resume.pdf"
 				target="_blank"

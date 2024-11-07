@@ -57,7 +57,7 @@ const config: Config = {
 				sm: "calc(var(--radius) - 4px)",
 			},
 			fontFamily: {
-				sans: "var(--font-sans)",
+				sans: "var(--font-geist-sans)",
 				calistoga: "var(--font-calistoga)",
 			},
 		},
