@@ -2,7 +2,7 @@
 	"projects": [
 		{
 			"name": "Gridiron Survivor",
-			"description": "Open-source NFL Survivor Pool Application (Apprenticeship)",
+			"description": "UX Engineer working on an open-source NFL Survivor Pool Application (Apprenticeship)",
 			"href": "https://gridiron-survivor-letsgettechnical.vercel.app",
 			"image": "/GIS.webp",
 			"tags": [
@@ -187,6 +187,29 @@
 					"name": "Website",
 					"href": "https://meditrak.codyepstein.com",
 					"icon": "globe"
+				}
+			]
+		},
+		{
+			"name": "KleerMed",
+			"description": "An AI Healthcare Chat application to enable bespoke patient care through context aware medical AI",
+			"image": "/kleermed.webp",
+			"tags": [
+				{
+					"name": "React",
+					"href": "https://react.dev/"
+				},
+				{
+					"name": "TypeScript",
+					"href": "https://www.typescriptlang.org/"
+				},
+				{
+					"name": "TailwindCSS",
+					"href": "https://tailwindcss.com/"
+				},
+				{
+					"name": "Supabase",
+					"href": "https://supabase.com/"
 				}
 			]
 		},
