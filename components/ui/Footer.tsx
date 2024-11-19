@@ -9,7 +9,7 @@ export default function Footer() {
 				<p className="text-center text-xs text-muted-foreground">
 					<span>&copy; {new Date().getFullYear()}</span>{" "}
 					<Link className="link" href="/">
-						portofolio-v2.codyepstein.com
+						codyepstein.com
 					</Link>
 				</p>
 			</section>
