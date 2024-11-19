@@ -45,7 +45,10 @@ export function ProjectCard({ project }: Props) {
 					<div className="mt-2 flex flex-wrap gap-1">
 						{tags.toSorted().map((tag) => (
 							<Link href={tag.href} key={tag.name} target="_blank">
-								<Badge className="px-1 py-0 text-[10px]" variant="secondary">
+								<Badge
+									className="px-1 py-0 text-[10px] hover-scale-110"
+									variant="secondary"
+								>
 									{tag.name}
 								</Badge>
 							</Link>
